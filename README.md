@@ -5,7 +5,7 @@ The front end is design using HTML, CSS, and JavaScript.
 And I used PHP for the backEnd.
 
 
-inorder to open this file first copy the folder into 
+Steps to open it:
 
 1.clone this repo to your pc LOCAL DISK C --->xammp--->htdoc folder 
 
