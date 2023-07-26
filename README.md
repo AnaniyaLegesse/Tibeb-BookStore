@@ -12,3 +12,7 @@ Steps to open it:
 2.then open xammp controller and start apach & mysql
 
 3.open a browser and type localhost/project/ in the URL
+
+
+To view the site using the this link: https://coffeeprodemo.netlify.app
+
