@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online_bookstore</title>
+    <link rel="stylesheet" href="layout.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="brand-name">
+             <span style="color: rgb(6, 149, 101) ;">ጥበብ</span>  Book Store</div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#aboutpage">About</a></li>
+                <li><a href="#contactpage">Contact</a></li>
+                <li><a href="user.php">Books</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="homepage">
+            <div class="quote">
+                <h2><span style="color: rgb(24, 244, 171) ;">ጥበብ</span>  Book Store</h2>
+                <br>
+                <p>"The power of wisdom is revealed though the world books.come and explore this world with us!"</p>
+                <br>
+                 <a class="getstarted" href="user.php"  >Get started</a>
+            </div>
+        
+
+    </div>
+
+    <div id="aboutpage">
+        <h1>aboutpage</h1>
+        <br><br>
+        <p>Tibe book store was created by 5 ambitiouse book seller in 1995EC.since then it has be serving thousends of customers
+            with it's deloved service.After serving this 19 golden years, we have came with web platform to serve you more.
+            you will be able to view our top books in our store with here in this website.
+        </p>
+        <br><br>
+
+        <div class="abtcontainer">
+            <img src="abt1.jpg">
+            <img src="abt2.jpg">
+            <img src="abt3.jpg">
+        </div>
+    </div>
+
+    <div id="contactpage">
+        <h1>contact us</h1>
+        <br><br>
+        <div class="container">
+            <p>We are very interested in get in touch with you. you can contact us using our information below. or leave us your comment on the comment section below.</p>
+            <br>
+            <ul>
+                <li>Phone:  +25141187380</li>
+                <li>email:  eba2022@gmail.com</li>
+                <li>Location:  Adiss Ababa,megenagna,mafi building 2 floor</li>
+            </ul>
+            <br>
+            
+            <br>
+            <form action="comment.php" method="post">
+                <input type="text" name="name" required placeholder="Name"><br><br>
+                <input type="email" name="email" required placeholder="Email Address"><br><br>
+                <textarea name="comment" id="" cols="40" rows="5" required placeholder="any suggestion"></textarea><br><br>
+                <input type="reset" value="clear" class="btn">
+                <input type="submit" name="submit" value="submit" class="btn">
+                
+            
+            </form>
+
+        </div>
+        
+        
+        <a href="#" class="arrow"><img src="arrow2.png" width="100%" height="80%"></a>
+    </div>
+
+
+    
+</body>
+</html>
